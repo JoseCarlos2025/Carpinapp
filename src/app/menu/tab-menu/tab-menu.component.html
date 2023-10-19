@@ -1,0 +1,16 @@
+<nav>
+    <ul class="menuItems">
+        <li>
+            <a routerLink='market' aria-label='market'><mat-icon (click)="changeColor(0)" [ngStyle]="{'color': icon1Color}">store</mat-icon></a>
+        </li>
+        <li>
+            <a routerLink= 'budget' aria-label='budget'><mat-icon (click)="changeColor(1)" [ngStyle]="{'color': icon2Color}">list</mat-icon></a>
+        </li>
+        <li>
+            <a routerLink= 'porfile' aria-label='porfile'><mat-icon (click)="changeColor(2)" [ngStyle]="{'color': icon3Color}">person</mat-icon></a>
+        </li>
+        <li>
+            <a href='#' aria-label='Cart'><mat-icon (click)="changeColor(3)" [ngStyle]="{'color': icon4Color}">shopping_cart</mat-icon></a>
+        </li>
+    </ul>
+</nav>

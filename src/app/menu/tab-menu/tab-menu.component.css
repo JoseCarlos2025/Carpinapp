@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 83.5px;
+    background: #FFFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #000000;
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+
+.mat-icon{
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+    color: #F07A4F;
+    transition: color 0.3s;;
+}
+
+
+
+
+

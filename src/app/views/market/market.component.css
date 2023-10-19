@@ -1,0 +1,94 @@
+#General{
+    padding-bottom: 84px;
+}
+
+#Cabecera {
+    padding-top: 3%;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Cabecera h1 {
+    color: #AD5D40;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#Cabecera p {
+    color: #3EA893;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    background-color: #EEEEEE;
+    width: 90%;
+    height: 30px;
+    color: #AD5D40;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+input[type="text"]::placeholder {
+    color: #AD5D40;
+}
+
+.section {
+    color: #F07A4F;
+    padding-left: 20px;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.product-container {
+    display: flex;
+    overflow: auto;
+    width: 100%;
+}
+
+.product {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.product img {
+    width: 110px;
+    height: 117px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product h3 {
+    color: black;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.product p {
+    color: black;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word
+}

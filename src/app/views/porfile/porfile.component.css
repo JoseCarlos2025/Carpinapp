@@ -1,0 +1,58 @@
+#color-style-porfile {
+    width: 100%;
+    height: 178px;
+    background-color: #BAE6DD;
+    position: absolute;
+    z-index: 0;
+}
+
+#Cabecera {
+    padding-top: 3%;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#Cabecera h1 {
+    color: #3EA893;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#Cabecera p {
+    color: #F07A4F;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+#porfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-porfile {
+    width: 135px;
+    height: 135px;
+    margin-top: 60px;
+    background: #F6F6F6;
+    border-radius: 9999px;
+    border: 5px white solid;
+    position: relative;
+}
+
+#porfile-name {
+    margin: 0;
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+}

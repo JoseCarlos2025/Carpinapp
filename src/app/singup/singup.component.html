@@ -1,0 +1,28 @@
+<div id="background-image">
+    <div id="color-rectangle"></div>
+</div>
+<div id="login_content">
+    <img id="logo" src="./assets/images/logo.png" alt="">
+    <form class="form-class" (submit)="onSubmit()">
+        <input type="text" id="name" name="name" [(ngModel)]="username" (input)="validateName()"
+            (blur)="validateName()" placeholder="Name">
+        <div *ngIf="!nameValid">El nombre debe tener al menos 3 caracteres.</div>
+
+        <input type="password" id="pwd" name="pwd" [(ngModel)]="password" (input)="validatePassword()"
+            (blur)="validatePassword()" placeholder="Password">
+        <div *ngIf="!passwordValid">La contraseña debe tener al<br> menos 8 caracteres.</div>
+
+        <input type="email" id="email" name="email" [(ngModel)]="email" (input)="validateEmail()"
+            (blur)="validateEmail()" placeholder="Email">
+        <div *ngIf="!emailValid">El email debe ser valido</div>
+
+        <div id="form-checkbox">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I would like to receive your newsletter<br> and other promotional information.</label>
+        </div>
+
+        <input type="submit" id="submit" [disabled]="!nameValid || !passwordValid || !emailValid">
+    </form>
+    <p>Login</p>
+</div>
+

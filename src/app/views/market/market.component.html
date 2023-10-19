@@ -1,0 +1,27 @@
+<div id="General">
+    <div id="Cabecera">
+        <p></p>
+        <h1>Market</h1>
+        <p>Filter</p>
+    </div>
+    <div class="search-container">
+        <input type="text" [(ngModel)]="searchQuery" placeholder="Search..." (input)="performSearch()">
+    </div>
+    <div class="sections-container">
+        <div class="section" *ngFor="let section of sections">
+            <h2 *ngIf="section.products.length > 0">{{ section.name }}</h2>
+            <div class="product-container">
+                <ng-container *ngFor="let product of section.products">
+                    <div class="product">
+                        <img [src]="'assets/images/' + product.image" alt="{{ product.name }}">
+                        <h3>{{ product.name }}</h3>
+                        <p>{{ product.description }}</p>
+                        <p>{{ product.price }}</p>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>    
+</div>
+
+

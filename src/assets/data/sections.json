@@ -1,0 +1,91 @@
+{
+    "sections": [
+        {
+            "name": "Chairs",
+            "products": [
+                {
+                    "name": "Chair 1",
+                    "description": "Description 1",
+                    "price": "$10",
+                    "image": "chair.jpeg"
+                },
+                {
+                    "name": "Chair 2",
+                    "description": "Description 2",
+                    "price": "$15",
+                    "image": "chair.jpeg"
+                },
+                {
+                    "name": "Chair 3",
+                    "description": "Description 3",
+                    "price": "$20",
+                    "image": "chair.jpeg"
+                },
+                {
+                    "name": "Chair 4",
+                    "description": "Description 4",
+                    "price": "$25",
+                    "image": "chair.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Tables",
+            "products": [
+                {
+                    "name": "Table 1",
+                    "description": "Description 1",
+                    "price": "$20",
+                    "image": "table.jpeg"
+                },
+                {
+                    "name": "Table 2",
+                    "description": "Description 2",
+                    "price": "$25",
+                    "image": "table.jpeg"
+                },
+                {
+                    "name": "Table 3",
+                    "description": "Description 3",
+                    "price": "$20",
+                    "image": "table.jpeg"
+                },
+                {
+                    "name": "Table 4",
+                    "description": "Description 4",
+                    "price": "$25",
+                    "image": "table.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Fornitures",
+            "products": [
+                {
+                    "name": "Forniture 1",
+                    "description": "Description 1",
+                    "price": "$20",
+                    "image": "forniture.jpeg"
+                },
+                {
+                    "name": "Forniture 2",
+                    "description": "Description 2",
+                    "price": "$25",
+                    "image": "forniture.jpeg"
+                },
+                {
+                    "name": "Forniture 3",
+                    "description": "Description 3",
+                    "price": "$20",
+                    "image": "forniture.jpeg"
+                },
+                {
+                    "name": "Forniture 4",
+                    "description": "Description 4",
+                    "price": "$25",
+                    "image": "forniture.jpeg"
+                }
+            ]
+        }
+    ]
+}

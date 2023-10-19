@@ -1,0 +1,98 @@
+#General {
+    padding-bottom: 84px;
+}
+
+#Cabecera {
+    padding-top: 3%;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Cabecera h1 {
+    color: #AD5D40;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#description-input {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#description-input p {
+    color: #666666;
+    font-size: 12px;
+    font-family: Inter;
+    width: 90%;
+    font-weight: 400;
+    word-wrap: break-word;
+    align-self: center;
+}
+
+#description-input textarea {
+    color: #BDBDBD;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+    background-color: #F6F6F6;
+    height: 179px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: #E8E8E8;
+    align-self: center;
+}
+
+#sizes-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#sizes-input p {
+    color: #666666;
+    font-size: 12px;
+    font-family: Inter;
+    width: 90%;
+    font-weight: 400;
+    word-wrap: break-word;
+    align-self: center;
+}
+
+#sizes-input input {
+    color: #BDBDBD;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+    background-color: #F6F6F6;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    border-color: #E8E8E8;
+    align-self: center;
+    border-style: solid;
+}
+
+#button-style{
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#button-style button{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #3EA893;
+    border-radius: 100px;
+    border-style: none;
+    color: white;
+}

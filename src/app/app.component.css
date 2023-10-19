@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+router-outlet {
+    padding-bottom: 70%;
+}
+
+.tab {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
